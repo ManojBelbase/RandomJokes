@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+height: 250px;
+width: 50%;
+border: 2px solid red;
+border-radius: 5px;
+text-align: center;
+}
+h3{
+margin-top: 20px;
+font: 500;
+}
+.joke{
+margin-top: 20px;
+padding-top: 30px;
+font-size: 20px;
+height: 100px;
+border-radius: 5px;
+padding-left: 10px 30px;
+}
+button{
+margin-top: 20px;
+cursor: pointer;
+}
